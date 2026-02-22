@@ -1,4 +1,4 @@
-##Malaria Incidence Analysis in Nigeria
+#Malaria Incidence Analysis in Nigeria
 
 # What this does
 Analyses WHO malaria data (2000-2017) to examine trends and make baseline predictions for 2030.
