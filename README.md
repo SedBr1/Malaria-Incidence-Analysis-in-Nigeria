@@ -1,28 +1,24 @@
-#Malaria Incidence Analysis in Nigeria
+__Malaria Incidence Analysis, Nigeria__
 
-# What this does
-Analyses WHO malaria data (2000-2017) to examine trends and make baseline predictions for 2030.
+__What this does:__
+Analyses malaria data in Nigeria from the WHO
 
-# Key findings
-- Strong negative correlation between year and incidence (r = -0.92)
-- Linear model predicts ~XXX cases per 1000 by 2030
-- BUT: This is a baseline only — real incidence depends on interventions
+__Findings__
+Linear model predicts 235.29 cases per 1000 by 2030
 
-# Methods used
-- Data cleaning
-- Statistics: Pearson correlation, linear regression
-- Validation: Train/test split (2000-2010 train, 2011-2017 test
--  Visualization: Matplotlib with trend line
+__Methods Used__
+__Data Cleaning_
+__Statistics_: Linear Regression
+__Validation_: Train/train split
+__Visualization_: Matplotlib
 
-# Limitations (important!)
-- Linear model ignores seasonality and intervention effects
-- No external predictors (rainfall, mosquito net distribution, etc.)
-- Prediction uncertainty increases with time
-  
-# Files
-- `malaria-analysis.ipynb` - Complete Jupyter notebook
-- `incidence-of-malaria.csv` - Raw data from WHO
-- `figures/` - Output plots
+__Limitation__
+Linear regression ignores factors like the seasons and malaria interventions that affect malaria incidences
+Uncertainty increases with predictions
 
-  # Acknowledgments
-Data from WHO Global Health Observatory
+__Files__
+Nigeria_malaria data-Copy2.ipynb - Jupyter notebook
+incidence-of-malaria.csv - data from WHO
+
+__Acknowledgement__
+WHO
