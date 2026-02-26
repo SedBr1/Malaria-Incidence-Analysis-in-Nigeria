@@ -7,10 +7,10 @@ __Findings__
 Linear model predicts 235.29 cases per 1000 by 2030
 
 __Methods Used__
-__Data Cleaning_
-__Statistics_: Linear Regression
-__Validation_: Train/train split
-__Visualization_: Matplotlib
+_Data Cleaning_
+_Statistics_: Linear Regression
+_Validation_: Train/train split
+_Visualization_: Matplotlib
 
 __Limitation__
 Linear regression ignores factors like the seasons and malaria interventions that affect malaria incidences
@@ -20,5 +20,5 @@ __Files__
 Nigeria_malaria data-Copy2.ipynb - Jupyter notebook
 incidence-of-malaria.csv - data from WHO
 
-__Acknowledgement__
-WHO
+__Source__
+WHO Global Health Observatory through the World Bank
